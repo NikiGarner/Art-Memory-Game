@@ -61,23 +61,23 @@ function OpenCard() {
 	if ($("#" + id + " img").is(":hidden")) {
 		$(Source + " div").unbind("click", OpenCard);
 
-		$("#" + id + " img").slideDown('fast');
+		$("#" + id + " img").fadeIn('fast');
 
 		if (ImgOpened == "") {
 			BoxOpened = id;
 			ImgOpened = $("#" + id + " img").attr("src");
 			setTimeout(function() {
 				$(Source + " div").bind("click", OpenCard)
-			}, 300);
+			}, 400);
 		} else {
 			CurrentOpened = $("#" + id + " img").attr("src");
 			if (ImgOpened != CurrentOpened) {
 				setTimeout(function() {
-					$("#" + id + " img").slideUp('fast');
-					$("#" + BoxOpened + " img").slideUp('fast');
+					$("#" + id + " img").fadeOut('fast');
+					$("#" + BoxOpened + " img").fadeOut('fast');
 					BoxOpened = "";
 					ImgOpened = "";
-				}, 400);
+				}, 300);
 			} else {
 				$("#" + id + " img").parent().css("visibility", "hidden");
 				$("#" + BoxOpened + " img").parent().css("visibility", "hidden");
@@ -87,7 +87,7 @@ function OpenCard() {
 			}
 			setTimeout(function() {
 				$(Source + " div").bind("click", OpenCard)
-			}, 400);
+			}, 300);
 		}
 		Counter++;
 		$("#counter").html("" + Counter);
