@@ -9,7 +9,7 @@ body {
 }
 #picbox {
 	margin: 0px auto;
-	width: 640px;
+	max-width: 90%;
 }
 #boxcard {
 	z-index: 1;
@@ -17,8 +17,8 @@ body {
 }
 #boxcard div{
 	float: left;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	margin: 5px;
 	padding: 5px;
 	border: 4px solid #EE872A;
