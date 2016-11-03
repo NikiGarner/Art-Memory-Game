@@ -68,7 +68,7 @@ function OpenCard() {
 			ImgOpened = $("#" + id + " img").attr("src");
 			setTimeout(function() {
 				$(Source + " div").bind("click", OpenCard)
-			}, 400);
+			}, 300);
 		} else {
 			CurrentOpened = $("#" + id + " img").attr("src");
 			if (ImgOpened != CurrentOpened) {
