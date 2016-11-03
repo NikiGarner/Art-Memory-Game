@@ -73,6 +73,27 @@ table {
       border: 2px solid black;
       height: 74.5px; }
 
+nav {
+  border-bottom: 2px solid #000; }
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+  li a:hover {
+    background-color: #000;
+    color: #fff; }
+
 * {
   margin: 0;
   padding: 0; }
