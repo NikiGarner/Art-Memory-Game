@@ -36,12 +36,15 @@ body {
     height: 500px;
     width: 100%;
     &:hover {
-      opacity: .7;
+      // opacity: .7;
       .title {
         display: block;
+        // margin-top: 400px;
         opacity: 1;
         background: black;
         color: white;
+        height: 100px;
+        z-index: 10;
       }
     }
     .title {
@@ -72,6 +75,16 @@ body {
       background: #B28A3A;
       height: 245px;
       margin-bottom: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .rightColumnText {
+      font-size: 30px;
+      &:hover {
+
       }
     }
   }

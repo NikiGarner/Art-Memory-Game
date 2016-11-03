@@ -80,13 +80,13 @@ body {
       background-size: cover;
       height: 500px;
       width: 100%; }
-      .mvp .search .searchImg:hover {
-        opacity: .7; }
-        .mvp .search .searchImg:hover .title {
-          display: block;
-          opacity: 1;
-          background: black;
-          color: white; }
+      .mvp .search .searchImg:hover .title {
+        display: block;
+        opacity: 1;
+        background: black;
+        color: white;
+        height: 100px;
+        z-index: 10; }
       .mvp .search .searchImg .title {
         display: none; }
   .mvp .rightColumn {
@@ -109,6 +109,11 @@ body {
         background: #B28A3A;
         height: 245px;
         margin-bottom: 10px; }
+      .mvp .rightColumn .game a {
+        text-decoration: none;
+        color: black; }
+    .mvp .rightColumn .rightColumnText {
+      font-size: 30px; }
 
 nav {
   border-bottom: 1px solid #000; }
