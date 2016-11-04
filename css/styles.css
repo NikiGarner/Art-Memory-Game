@@ -201,6 +201,18 @@ body {
 #boxbuttons .button:hover {
   background: #999; }
 
+.games {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+
+.game {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px; }
+
 body {
   font-family: 'Muli', sans-serif; }
 
