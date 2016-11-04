@@ -12,9 +12,9 @@ var ImgSource = [
   "./img/ren/lady.jpg",
   "./img/ren/mona-lisa.jpg",
   "./img/ren/pieta.jpg",
-  "./img/ren/spring.jpeg",
+  "./img/ren/spring.jpg",
   "./img/ren/titian.jpg",
-  "./img/ren/venus.jpg",
+  "./img/ren/venus.jpeg",
 ];
 
 function RandomFunction(MaxValue, MinValue) {
