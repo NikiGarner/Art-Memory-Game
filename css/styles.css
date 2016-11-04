@@ -214,10 +214,12 @@ body {
   margin: 10px; }
 
 .imp {
-  background-image: url("../img/bridge.jpg"); }
+  background-image: url("../img/bridge.jpg");
+  background-size: cover; }
 
 .ren {
-  background-image: url("../img/ren/david.jpg"); }
+  background-image: url("../img/ren/david.jpg");
+  background-size: cover; }
 
 body {
   font-family: 'Muli', sans-serif; }
