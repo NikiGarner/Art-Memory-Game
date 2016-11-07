@@ -2,8 +2,10 @@
 	margin: 0;
 	padding: 0;
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	max-width: 100%;
+
 }
 .link{
 	text-decoration: none;
@@ -35,5 +37,9 @@
 }
 .bar {
 	background-image: url('../img/bar/rubens.jpg');
+	background-size: cover;
+}
+.post {
+	background-image: url('../img/post/seurat.jpg');
 	background-size: cover;
 }
