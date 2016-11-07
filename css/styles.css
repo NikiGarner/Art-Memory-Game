@@ -101,21 +101,22 @@ body {
       margin-left: 150px;
       width: 50%;
       top: 100px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black; }
+      border: 2px solid black;
+      padding: 10px; }
       .mvp .rightColumn .rightColumnText:hover {
-        transform: skewY(-25deg); }
+        background: black;
+        color: white; }
     .mvp .rightColumn .gallery {
       flex-direction: row;
       text-align: center; }
       .mvp .rightColumn .gallery .galleryBlock {
-        background: #5A271A;
+        background: #d5b87d;
         height: 245px; }
     .mvp .rightColumn .game {
       flex-direction: row;
       text-align: center; }
       .mvp .rightColumn .game .gameBlock {
-        background: #B28A3A;
+        background: #d5b87d;
         height: 245px;
         margin-bottom: 10px; }
       .mvp .rightColumn .game a {
@@ -207,7 +208,7 @@ body {
   display: flex;
   flex-wrap: wrap; }
 
-.game {
+.gameCard {
   height: 200px;
   width: 200px;
   border: 1px solid black;

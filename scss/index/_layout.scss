@@ -64,10 +64,11 @@ body {
       margin-left: 150px;
       width: 50%;
       top: 100px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
+      border: 2px solid black;
+      padding: 10px;
       &:hover {
-        transform: skewY(-25deg);
+        background: black;
+        color: white;
       }
 
     }
@@ -75,7 +76,7 @@ body {
       flex-direction: row;
       text-align: center;
       .galleryBlock{
-        background: #5A271A;
+        background: lighten(#B28A3A, 20%);
         height: 245px;
       }
     }
@@ -83,7 +84,7 @@ body {
       flex-direction: row;
       text-align: center;
       .gameBlock {
-      background: #B28A3A;
+      background: lighten(#B28A3A, 20%);
       height: 245px;
       margin-bottom: 10px;
       }
