@@ -3,21 +3,40 @@
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 80%;
+}
+.link{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	&:hover {
+		opacity: .7;
+		content: "Renaissance";
+		transform: rotateX(45);
+	}
+	h4 {
+		background: black;
+		width: 200px;
+		margin-left: 10px;
+	}
 }
 .gameCard {
 	height: 200px;
 	width: 200px;
-	border: 1px solid black;
 	margin: 10px;
-	// background-image: url('../img/bridge.jpg');
-
 }
 .imp {
 		background-image: url('../img/bridge.jpg');
 		background-size: cover;
 }
-
 .ren {
 	background-image: url('../img/ren/david.jpg');
 	background-size: cover;
+}
+
+.pageName {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }

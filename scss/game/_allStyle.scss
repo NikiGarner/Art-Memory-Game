@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body {
-	font: 18px Verdana;
+	font-size: 18px;
 	color: #000;
   background: #FFF;
 }
@@ -21,7 +21,7 @@ body {
 	height: 150px;
 	margin: 5px;
 	padding: 5px;
-	border: 4px solid #EE872A;
+	border: 2px solid black;
 	cursor: pointer;
 	border-radius: 10px;
 	box-shadow: 0 1px 5px rgba(0,0,0,.5);
@@ -40,12 +40,12 @@ body {
 }
 #boxbuttons .button {
 	text-transform: uppercase;
-	background: #EE872A;
 	padding: 5px 10px;
 	margin: 5px;
-	border-radius: 10px;
+	border: 1px solid black;
 	cursor: pointer;
 }
 #boxbuttons .button:hover {
-	background: #999;
+	background: black;
+	color: white;
 }
