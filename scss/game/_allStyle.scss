@@ -9,7 +9,7 @@ body {
 }
 #picbox {
 	margin: 0px auto;
-	max-width: 90%;
+	max-width: 100%;
 }
 #boxcard {
 	z-index: 1;
@@ -49,3 +49,17 @@ body {
 	background: black;
 	color: white;
 }
+
+.pageName {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+// .subPageName {
+// 	font-size: 1em;
+// 	text-align: center;
+// 	margin-top: 100px;
+// 	margin-bottom: 50px;
+// }

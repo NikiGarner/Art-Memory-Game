@@ -6,15 +6,15 @@ var ImgFound = 0;
 var Source = "#boxcard";
 
 var ImgSource = [
-  "./img/ren/arnolfini.jpg",
-  "./img/ren/david.jpg",
-  "./img/ren/giotto.jpg",
-  "./img/ren/lady.jpg",
-  "./img/ren/mona-lisa.jpg",
-  "./img/ren/pieta.jpg",
-  "./img/ren/spring.jpg",
-  "./img/ren/titian.jpg",
-  "./img/ren/venus.jpeg",
+  "./img/bar/bernini.jpg",
+  "./img/bar/vermeer2.jpg",
+  "./img/bar/carvaggio.jpg",
+  "./img/bar/gentileschi.jpg",
+  "./img/bar/rembrandt.jpg",
+  "./img/bar/rubens.jpg",
+  "./img/bar/swing.png",
+  "./img/bar/velasquez.jpg",
+  "./img/bar/vermeer.jpg",
 ];
 
 function RandomFunction(MaxValue, MinValue) {

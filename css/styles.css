@@ -165,7 +165,7 @@ body {
 
 #picbox {
   margin: 0px auto;
-  max-width: 90%; }
+  max-width: 100%; }
 
 #boxcard {
   z-index: 1;
@@ -205,12 +205,18 @@ body {
   background: black;
   color: white; }
 
+.pageName {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .games {
   margin: 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  max-width: 80%; }
+  max-width: 100%; }
 
 .link {
   text-decoration: none;
@@ -238,11 +244,9 @@ body {
   background-image: url("../img/ren/david.jpg");
   background-size: cover; }
 
-.pageName {
-  font-size: 2em;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+.bar {
+  background-image: url("../img/bar/rubens.jpg");
+  background-size: cover; }
 
 body {
   font-family: 'Muli', sans-serif; }
