@@ -57,47 +57,40 @@ body {
   .rightColumn {
     flex-direction: column;
     width: 50%;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-left: 15px;
-    .rightColumnText {
-      position: relative;
-      margin-left: 150px;
-      width: 50%;
-      top: 100px;
-      border: 2px solid black;
-      padding: 10px;
-      &:hover {
-        background: black;
-        color: white;
-      }
-
-    }
-    .gallery {
-      flex-direction: row;
-      text-align: center;
-      .galleryBlock{
-        background: lighten(#B28A3A, 20%);
-        height: 245px;
-      }
-    }
+    font-size: 30px;
     .game {
       flex-direction: row;
       text-align: center;
-      .gameBlock {
       background: lighten(#B28A3A, 20%);
       height: 245px;
       margin-bottom: 10px;
+      &:hover {
+        background: lighten(black, 20%);
+        color: white;
       }
       a {
         text-decoration: none;
         color: black;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+    .gallery {
+      flex-direction: row;
+      text-align: center;
+      background: lighten(#B28A3A, 20%);
+      height: 245px;
+      &:hover {
+        background: lighten(black, 20%);
+        color: white;
       }
     }
     .rightColumnText {
-      font-size: 30px;
-      &:hover {
-
-      }
+      padding: 10px;
+      padding-top: 100px;
     }
   }
 }

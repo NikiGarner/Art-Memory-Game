@@ -94,36 +94,34 @@ body {
   .mvp .rightColumn {
     flex-direction: column;
     width: 50%;
-    padding-top: 60px;
-    margin-left: 15px; }
-    .mvp .rightColumn .rightColumnText {
-      position: relative;
-      margin-left: 150px;
-      width: 50%;
-      top: 100px;
-      border: 2px solid black;
-      padding: 10px; }
-      .mvp .rightColumn .rightColumnText:hover {
-        background: black;
-        color: white; }
-    .mvp .rightColumn .gallery {
-      flex-direction: row;
-      text-align: center; }
-      .mvp .rightColumn .gallery .galleryBlock {
-        background: #d5b87d;
-        height: 245px; }
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 30px; }
     .mvp .rightColumn .game {
       flex-direction: row;
-      text-align: center; }
-      .mvp .rightColumn .game .gameBlock {
-        background: #d5b87d;
-        height: 245px;
-        margin-bottom: 10px; }
+      text-align: center;
+      background: #d5b87d;
+      height: 245px;
+      margin-bottom: 10px; }
+      .mvp .rightColumn .game:hover {
+        background: #333333;
+        color: white; }
       .mvp .rightColumn .game a {
         text-decoration: none;
         color: black; }
+        .mvp .rightColumn .game a:hover {
+          color: white; }
+    .mvp .rightColumn .gallery {
+      flex-direction: row;
+      text-align: center;
+      background: #d5b87d;
+      height: 245px; }
+      .mvp .rightColumn .gallery:hover {
+        background: #333333;
+        color: white; }
     .mvp .rightColumn .rightColumnText {
-      font-size: 30px; }
+      padding: 10px;
+      padding-top: 100px; }
 
 nav {
   border-bottom: 1px solid #000;
