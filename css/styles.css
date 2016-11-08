@@ -254,7 +254,9 @@ body {
   cursor: pointer; }
 
 #resultsList {
-  display: none; }
+  max-width: 900px;
+  z-index: 100;
+  background: black; }
 
 .games {
   margin: 0;

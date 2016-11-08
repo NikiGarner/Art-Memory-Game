@@ -102,5 +102,8 @@ body {
 }
 
 #resultsList {
-	display: none;
+	// display: none;
+	max-width: 900px;
+	z-index: 100;
+	background: black;
 }
