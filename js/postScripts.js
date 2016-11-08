@@ -1,3 +1,4 @@
+
 var BoxOpened = "";
 var ImgOpened = "";
 var Counter = 0;
@@ -40,9 +41,11 @@ function ShuffleImages() {
 		ImgArr.splice(RandomNumber, 1);
 		ImgThis = ImgThis.next();
 	}
+  $("#resultsList").hide();
 }
 
 function ResetGame() {
+  $("#boxcard").show();
 	ShuffleImages();
 	$(Source + " div img").hide();
 	$(Source + " div").css("visibility", "visible");
@@ -96,6 +99,7 @@ function OpenCard() {
 		if (ImgFound == ImgSource.length) {
 			$("#counter").prepend('<span id="success">Good Job! You Found All The Matches With </span>');
       $("#resultsList").show();
+      $("#boxcard").hide();
 		}
 	}
 }
