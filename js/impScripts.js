@@ -40,9 +40,11 @@ function ShuffleImages() {
 		ImgArr.splice(RandomNumber, 1);
 		ImgThis = ImgThis.next();
 	}
+  $("#resultsList").hide();
 }
 
 function ResetGame() {
+  $("#boxcard").show();
 	ShuffleImages();
 	$(Source + " div img").hide();
 	$(Source + " div").css("visibility", "visible");
@@ -79,8 +81,8 @@ function OpenCard() {
 					ImgOpened = "";
 				}, 300);
 			} else {
-				$("#" + id + " img").parent().css("visibility", "hidden");
-				$("#" + BoxOpened + " img").parent().css("visibility", "hidden");
+				$("#" + id + " img").parent().css( "hidden");
+				$("#" + BoxOpened + " img").parent().css("hidden");
 				ImgFound++;
 				BoxOpened = "";
 				ImgOpened = "";
@@ -93,6 +95,8 @@ function OpenCard() {
 		$("#counter").html("" + Counter);
 
 		if (ImgFound == ImgSource.length) {
+      $("#resultsList").show();
+      $("#boxcard").hide();
 			$("#counter").prepend('<span id="success">You Found All Pictues With </span>');
 		}
 	}
