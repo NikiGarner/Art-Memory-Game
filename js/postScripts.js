@@ -79,8 +79,8 @@ function OpenCard() {
 					ImgOpened = "";
 				}, 300);
 			} else {
-				$("#" + id + " img").parent().css("visibility", "hidden");
-				$("#" + BoxOpened + " img").parent().css("visibility", "hidden");
+				$("#" + id + " img").parent().css( "hidden");
+				$("#" + BoxOpened + " img").parent().css("img", "test");
 				ImgFound++;
 				BoxOpened = "";
 				ImgOpened = "";
@@ -92,8 +92,10 @@ function OpenCard() {
 		Counter++;
 		$("#counter").html("" + Counter);
 
+
 		if (ImgFound == ImgSource.length) {
-			$("#counter").prepend('<span id="success">You Found All Pictues With </span>');
+			$("#counter").prepend('<span id="success">Good Job! You Found All The Matches With </span>');
+      $("#resultsList").show();
 		}
 	}
 }
