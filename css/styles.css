@@ -85,7 +85,7 @@ body {
         opacity: 1;
         background: black;
         color: white;
-        height: 80px;
+        height: 60px;
         padding-top: 30px;
         z-index: 10;
         text-align: center; }
@@ -177,14 +177,12 @@ body {
   padding: 5px;
   border: 2px solid black;
   cursor: pointer;
-  border-radius: 10px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-  background: #B1B1B1;
+  background: #d5b87d;
   z-index: 2; }
 
 #boxcard div img {
   display: none;
-  border-radius: 10px;
   z-index: 3; }
 
 #boxbuttons {
@@ -216,13 +214,6 @@ body {
   align-items: stretch;
   max-width: 100%; }
 
-#success {
-  animation: pulse 1.5s infinite; }
-@keyframes pulse {
-  0% {
-    color: gold; }
-  100% {
-    color: #998100; } }
 .games {
   margin: 0;
   padding: 0;
