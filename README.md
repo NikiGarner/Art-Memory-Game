@@ -10,7 +10,7 @@ This is a memory game with art from different periods. The user clicks on which 
 
 ## Setup/Installation Requirements
 
-* _First, link to my github repository https://github.com/NikiGarner/nikis-closet.git_
+* _First, link to my github repository https://github.com/NikiGarner/Art-Memory-Game.git_
 * _replicate my site to your desktop_
 * _next, perform git clone in the terminal_
 * _then, perform git fetch_
